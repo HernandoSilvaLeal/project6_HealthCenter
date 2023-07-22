@@ -1,4 +1,4 @@
-# template_nodejs
+# Entrega Taller 6
 It is a Node JS template struct.
 
 ## SCR
