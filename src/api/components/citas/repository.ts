@@ -34,7 +34,7 @@ export class AppointmentRepository {
 
     public async updateAppointment(id: number, updates: Partial<AppointmentReq>): Promise<void> {
         try{
-            await db('citas').where({ id_cita: id }).update(updates)
+            await db('appointment').where({ id_cita: id }).update(updates)
         } catch (error){
             logger.error( 'Failed updated appointment in repository', {error})
             throw new AppointmentUpdateError()
@@ -43,13 +43,10 @@ export class AppointmentRepository {
 
     public async deleteAppointment(id: number): Promise<void> {
         try{
-            await db('citas').where({ id_cita: id }).del()
+            await db('appointment').where({ id_cita: id }).del()
         } catch (error){
-            logger.error( 'Failed deleting appointment in repository', {error})
+            logger.error( 'Failed deleting doctor in repository', {error})
             throw new AppointmentDeleteError()
         }
     }
-
-    // METODO UPDATE 
-
 }

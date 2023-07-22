@@ -125,29 +125,9 @@ Tareas 20/06/2023
 
 Tarea Entregar taller 6
 
-#1 -> Cambiar los errores específicos por errores genéricos que se puedan adecuar.
-
-
-#2 -> Validación que la respuesta del doctor en creación de cita en el serivice sea diferente de null, si no retornar que el doctor no exisite, es decir, si el doctor no existe en la creación de la cita
+* Cambiar los errores específicos por errores genéricos que se puedan adecuar.
+* Validación que la respuesta del doctor en creación de cita en el serivice sea diferente de null, si no retornar que el doctor no exisite, es decir, si el doctor no existe en la creación de la cita
     decir que el doctor no fue encontrado.
-
-
-#3 -> Cambiar el customErrors de config a utils
-
-
-#4 -> Completar por lo menos los test de citas o pacientes (David) 
-
-
-#5 -> Terminar el crud de citas y pacientes 
-        Pacientes
-            Repository
-
-        Citas
-            Repository
-
-    Completar el Crud en esos 3
-        repository
-        servico
-        controlador
-    (completar reporistory.ts get appoiment )
-    customErrors.ts, esta en config, pero toca cambiarlo a utils
+* Cambiar el customErrors de config a utils (ok)
+* Completar por lo menos los test de citas o pacientes (ok)
+* Terminar el crud de citas y pacientes (ok)
