@@ -1,4 +1,4 @@
-# Entrega Taller 6
+# Entrega Taller 6 - HealthCenter (express-nodejs)
 It is a Node JS template struct.
 
 ## SCR
