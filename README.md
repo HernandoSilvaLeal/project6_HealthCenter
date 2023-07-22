@@ -1,4 +1,4 @@
-# Atenea UDistrital, Taller 6 - HealthCenter (express-nodejs)
+# Atenea UDistrital, Taller 6 - HealthCenter (expressjs)
 
 
 BACKEND TALLER 6 
